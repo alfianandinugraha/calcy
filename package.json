@@ -9,7 +9,7 @@
     "build": "tsc",
     "lint": "yarn eslint",
     "test": "yarn jest",
-    "extract": "yarn api-extractor run --local --verbose"
+    "extract": "yarn build && yarn api-extractor run --local --verbose"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.0",

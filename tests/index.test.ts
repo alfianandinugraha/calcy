@@ -1,4 +1,4 @@
-import { add, substract, times } from "../src";
+import { add, substract, times, divide } from "../src";
 
 describe("Test 'add' function", () => {
   test("add of 2 and 8", () => {
@@ -39,5 +39,19 @@ describe("Test 'times' function", () => {
 
   test("times of 5 and 10", () => {
     expect(times(5, 10)).toBe(50);
+  });
+});
+
+describe("Test 'divide' function", () => {
+  test("divide of 7 and 7", () => {
+    expect(divide(7, 7)).toBe(1);
+  });
+
+  test("divide of 8 and 2", () => {
+    expect(divide(8, 2)).toBe(4);
+  });
+
+  test("divide of 10 and 2", () => {
+    expect(divide(10, 2)).toBe(5);
   });
 });

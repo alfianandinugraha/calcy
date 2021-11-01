@@ -1,4 +1,8 @@
 /**
+ * @packageDocumentation A tiny library to calculate number
+ */
+
+/**
  * Add two number
  *
  * @param a - first number
@@ -6,9 +10,9 @@
  *
  * @public
  */
-const add = (a: number, b: number) => {
+function add(a: number, b: number): number {
   return a + b;
-};
+}
 
 /**
  * Substract two numbers
@@ -18,9 +22,9 @@ const add = (a: number, b: number) => {
  *
  * @public
  */
-const substract = (a: number, b: number) => {
+function substract(a: number, b: number): number {
   return a - b;
-};
+}
 
 /**
  * Times two number
@@ -30,9 +34,9 @@ const substract = (a: number, b: number) => {
  *
  * @public
  */
-const times = (a: number, b: number) => {
+function times(a: number, b: number): number {
   return a * b;
-};
+}
 
 /**
  * Divide two numbers
@@ -42,8 +46,8 @@ const times = (a: number, b: number) => {
  *
  * @public
  */
-const divide = (a: number, b: number) => {
+function divide(a: number, b: number): number {
   return a / b;
-};
+}
 
 export { add, substract, times, divide };

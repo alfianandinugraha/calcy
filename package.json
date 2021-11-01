@@ -6,7 +6,8 @@
   "author": "Alfian Andi Nugraha <alfian.23andi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "yarn eslint"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.2.0",

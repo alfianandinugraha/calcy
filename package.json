@@ -1,0 +1,8 @@
+{
+  "name": "calcy",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/inde.d.ts",
+  "author": "Alfian Andi Nugraha <alfian.23andi@gmail.com>",
+  "license": "MIT"
+}

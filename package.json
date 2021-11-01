@@ -5,6 +5,9 @@
   "types": "dist/inde.d.ts",
   "author": "Alfian Andi Nugraha <alfian.23andi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.4.4"
   }

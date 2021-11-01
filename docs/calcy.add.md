@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [calcy](./calcy.md) &gt; [add](./calcy.add.md)
 
-## add variable
+## add() function
 
 Add two number
 
 <b>Signature:</b>
 
 ```typescript
-add: (a: number, b: number) => number
+declare function add(a: number, b: number): number;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  a | number | first number |
+|  b | number | second number |
+
+<b>Returns:</b>
+
+number
+

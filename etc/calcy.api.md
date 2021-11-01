@@ -5,17 +5,15 @@
 ```ts
 
 // @public
-export const add: (a: number, b: number) => number;
+export function add(a: number, b: number): number;
 
 // @public
-export const divide: (a: number, b: number) => number;
+export function divide(a: number, b: number): number;
 
 // @public
-export const substract: (a: number, b: number) => number;
+export function substract(a: number, b: number): number;
 
 // @public
-export const times: (a: number, b: number) => number;
-
-// (No @packageDocumentation comment for this package)
+export function times(a: number, b: number): number;
 
 ```

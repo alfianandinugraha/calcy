@@ -4,12 +4,14 @@
 
 ## calcy package
 
-## Variables
+A tiny library to calculate number
 
-|  Variable | Description |
+## Functions
+
+|  Function | Description |
 |  --- | --- |
-|  [add](./calcy.add.md) | Add two number |
-|  [divide](./calcy.divide.md) | Divide two numbers |
-|  [substract](./calcy.substract.md) | Substract two numbers |
-|  [times](./calcy.times.md) | Times two number |
+|  [add(a, b)](./calcy.add.md) | Add two number |
+|  [divide(a, b)](./calcy.divide.md) | Divide two numbers |
+|  [substract(a, b)](./calcy.substract.md) | Substract two numbers |
+|  [times(a, b)](./calcy.times.md) | Times two number |
 

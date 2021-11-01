@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [calcy](./calcy.md) &gt; [divide](./calcy.divide.md)
 
-## divide variable
+## divide() function
 
 Divide two numbers
 
 <b>Signature:</b>
 
 ```typescript
-divide: (a: number, b: number) => number
+declare function divide(a: number, b: number): number;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  a | number | fisrt number |
+|  b | number | second number |
+
+<b>Returns:</b>
+
+number
+

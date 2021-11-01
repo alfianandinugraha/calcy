@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [calcy](./calcy.md) |  |
+|  [calcy](./calcy.md) | A tiny library to calculate number |
 

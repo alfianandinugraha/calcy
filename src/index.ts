@@ -39,6 +39,8 @@ const times = (a: number, b: number) => {
  *
  * @param a - fisrt number
  * @param b - second number
+ *
+ * @public
  */
 const divide = (a: number, b: number) => {
   return a / b;
